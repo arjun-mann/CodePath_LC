@@ -189,7 +189,7 @@ def catch_fish(head):
     if head:
         print(f"I caught a {head.fish_name}!")
         head = head.next
-        print_linked_list(head)
+        
     else:
         print("Aw! Better luck next time!")
         return None
